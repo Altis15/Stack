@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacks - Market Share Price Insights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Stacks</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#insights">Insights</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Stacks</h2>
+            <p>Stacks provides weekly insights into market share prices of leading companies through in-depth news articles. Stay informed on trends, analyses, and predictions to make better investment decisions.</p>
+        </div>
+    </section>
+
+    <section id="articles" class="articles">
+        <div class="container">
+            <h2>Weekly News Articles</h2>
+            <div class="article-list">
+                <article>
+                    <h3>Week of December 28, 2025: Apple Inc. (AAPL)</h3>
+                    <p>Apple's share price surged 5% this week amid strong holiday sales. Key insights include revenue growth from services and potential AI integrations in upcoming products.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article>
+                    <h3>Week of December 21, 2025: Tesla Inc. (TSLA)</h3>
+                    <p>Tesla's market share in EVs remains dominant, but competition from China is heating up. Share price dipped 2% due to supply chain concerns.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <!-- Add more articles here weekly -->
+            </div>
+        </div>
+    </section>
+
+    <section id="insights" class="insights">
+        <div class="container">
+            <h2>Generate Share Price Insights</h2>
+            <p>Enter a stock symbol (e.g., MSFT for Microsoft) to fetch current data and generate a quick insight article.</p>
+            <form id="stock-form">
+                <input type="text" id="stock-symbol" placeholder="Enter stock symbol" required>
+                <button type="submit">Fetch Insights</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Stacks. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
